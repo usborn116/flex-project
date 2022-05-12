@@ -7,10 +7,12 @@ body{
 }
 header {
     background-color: #1f2937;
-    margin: auto;
     padding: 0;
     border: 2px solid #1f2937;
-
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    max-height: 60vh;
 }
 
 .hero{
@@ -23,8 +25,8 @@ header {
     display:flex;
     text-decoration: none;
     justify-content: space-between;
-    padding: 10px 100px;
-    margin: 10px 30px;
+    padding: 10px 80px;
+    margin: 10px 20px;
 }
 
 .headerlinks a{
@@ -52,6 +54,7 @@ img{
 
 .intro{
     display:flex;
+    flex: 1 0 0;
     padding: 100px;
     justify-content: space-between;
     gap: 30px;
@@ -69,3 +72,120 @@ p{
     font-size:18px;
     color: #e5e7eb;
 }
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+h3{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937
+
+}
+
+.images{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    gap: 30px;
+}
+.images img{
+    width:100px;
+    height:auto;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.chunk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:5px;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+.three h3{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: auto;
+}
+
+.three h4{
+    font-size: 18px;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 20%;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.four{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 60px 70px;
+    padding: 25px;
+    border-radius: 5px;
+    gap: 20px;
+    width: 80%;
+    height: 
+}
+
+.banner h4{
+    color: #f9faf8;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.banner p{
+    color: #f9faf8;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.banner button{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+.banner .text{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f2937;
+    color:#f9faf8;
+  }
